@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(90, 58, 86);
+    background-size: cover;
+    background-attachment: fixed;
+}    
+.container{
+    background-image: url("/images/Bg.webp");
+    background-size: cover;
+    height: 620px;
+    width:500px;
+    background-repeat: no-repeat;
+    border:2px solid ;
+    align-items: center;
+    margin:15px 500px;
+    padding:15px;
+   
+    
+}
+.form_container{
+    max-width: 400px;
+    width:100px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+
+}
+#heading{
+    text-align: center;
+    font-family:cursive;
+    font: size 30px;;
+}
+#one{
+    text-align: justify;
+    height: 20px;
+    width:300px;
+    padding-left: 10px;
+    
+}
+.textlabel{
+    display: block;
+    text-wrap:inherit;
+    padding: 10px;
+}
+input[type="text"]{
+    width:100%;
+    font-size: 1.2em;
+    border:1px solid;
+    box-shadow: 2px;
+    border-radius: 3px;
+    padding:12px;
+    box-sizing: border-box;
+    
+}
+.btn{
+    align-items: center;
+    padding:10px;
+    margin:5px 180px 10px;
+
+}
+button{
+    text-align: center;
+    font-size: small;
+    border-radius: 20px;
+    font-family: cursive;
+    width: 100px;
+}
